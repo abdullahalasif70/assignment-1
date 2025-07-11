@@ -156,14 +156,34 @@ body{
 }
 .main-section{
     display: flex;
-    gap: 20px;
+    gap: 24px;
     justify-content: center;
+    margin: 50px 50px;
 }
+
 .sm{
-    width: 365px;
-    max-height: 245px;
+    width: 350px;
     padding: 24px;
     border-radius: 14px;
     background-color: white;
     font-family: 'Raleway', sans-serif;
+}
+.profile{
+    align-items: center;
+    margin-top: 40px;
+}
+.profile h6{
+    margin-top: -10px;
+
+}
+.sm .profile{
+    display: flex;
+    gap: 30px;
+    height: 24px;
+}
+.pro-img{
+    width: auto;
+}
+.sm h6{
+    color: #B3B3B3;
 }
