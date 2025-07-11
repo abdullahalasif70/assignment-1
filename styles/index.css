@@ -25,6 +25,25 @@ nav {
     font-size: 34px;
     color: #4E47FF;
 }
+.btn-primary:hover{
+    background-color: black;
+}
+.btn-s:hover{
+    background-color: black;
+}
+.btn-s{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 36px;
+
+}
 
 .btn-primary {
     font-family: 'Raleway', sans-serif;
@@ -35,6 +54,8 @@ nav {
     color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    
 }
 
 nav ul li {
@@ -185,5 +206,78 @@ body{
     width: auto;
 }
 .sm h6{
+    color: #B3B3B3;
+}
+
+.form-section input[type="text"], input[type="email"], textarea{
+    border-radius: 5px;
+    display: block;
+    width: 80%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+}
+
+.form-section{
+    justify-content: space-between;
+}
+.form-section div{
+    margin-bottom: -5px;
+}
+.form-section h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 97px;
+    font-weight: 800;
+    
+
+}
+
+.form-section h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.font{
+    font-family: 'Raleway', sans-serif;
+
+}
+footer{
+    text-align: center;
+    
+}
+footer{
+    padding: 100px 450px;
+    background-color: white;
+    
+}
+.footer-logo p{
+    color: #B3B3B3;
+}
+.footer-logo h1{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    color: #4E47FF;
+}
+
+.footer-link ul li{
+    list-style: none;
+    color: #B3B3B3;
+    
+    
+}
+.footer-link ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.footer-link ul li a{
+    text-decoration: none;
     color: #B3B3B3;
 }
